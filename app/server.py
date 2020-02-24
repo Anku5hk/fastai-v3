@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/open?id=16E8Nh1zbWiN_W-5fakx_dijK_jCGH0nu'
+export_file_url = 'https://drive.google.com/uc?export=download&id=16E8Nh1zbWiN_W-5fakx_dijK_jCGH0nu'
 export_file_name = 'export.pkl'
 
 classes = ['Afraid', 'Angry', 'Disgusted','Happy','Neutral', 'Sad', 'Surprised']
